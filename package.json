@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-notify": "~2.2.0"
+  },
+  "dependencies": {
+    "laravel-elixir": "^4.0.0",
+    "bootstrap-sass": "^3.0.0",
+    "react": "~0.14.6",
+    "vinyl-source-stream": "~1.1.0",
+    "gulp": "~3.9.0",
+    "browserify": {
+      "transform": [
+        [
+          "reactify",
+          {
+            "harmony": true
+          }
+        ]
+      ]
+    },
+    "reactify": "~1.1.1",
+    "react-dom": "~0.14.6"
+  }
+}
